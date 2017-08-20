@@ -1,0 +1,59 @@
+html, body {
+	width: 825px;
+	height: 420px;
+	margin: 0 auto;
+	padding: 2px;
+}
+
+main {
+	width: 825px;
+	min-height: 312px;
+}
+
+header {
+	padding: 15px;
+	background-color: #FF9700;
+	text-align: left;
+	font-size: 32px;
+	font-family: Verdana, sans-serif;
+}
+.task {
+	font-size: 15px;
+}
+
+.city {
+/*	width: 265px;*/	
+	max-width: 31%;
+	height: auto;
+	padding: 1%;
+	display: inline-block;
+	float: left;
+}
+p {
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	line-height: 23px;
+}
+.title {
+	font-size: 28px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	padding: 1%;
+}
+
+@media screen and (max-width: 825px) {
+	html, body, main, .city {
+		width: 410px;
+		min-width: 410px;
+	}
+}
+ 
+@media screen and (max-width: 960px) {
+	img {
+		width: 40%;
+		min-width: 40%;
+	}
+}
